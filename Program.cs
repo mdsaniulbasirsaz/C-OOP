@@ -1,5 +1,6 @@
 ﻿// Program.cs
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
@@ -35,5 +36,8 @@ class Program
         member2.Age = "25";
         member1.MemberDetails();
         member2.MemberDetails();
+
+        Constructor model = new Constructor();
+        model.ShowModel();
     }
 }
